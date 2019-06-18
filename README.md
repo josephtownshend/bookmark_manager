@@ -25,3 +25,21 @@ So that I can easily access my favourite websites
 I would like to see a list of my bookmarks
 ```
 #### DOMAIN MODEL DIAGRAM https://raw.githubusercontent.com/makersacademy/course/master/bookmark_manager/images/bookmark_manager_1.png?token=ACBIYNQILECHGGTY4NZVO6S5CDLUQ
+
+### DATABASE
+
+#### To set up the database
+
+- Connect to `psql`
+- Create the database using the psql command `CREATE DATABASE bookmark_manager;`
+- Connect to the database using the pqsl command `\c bookmark_manager;`
+- Run the SQL scripts in the `db/migrations` folder in the given order.
+
+### To run the Bookmark Manager app:
+
+`rackup -p 3000`
+
+To view bookmarks, navigate to `localhost:3000/bookmarks`
+To view bookmarks, navigate to `localhost:3000/bookmarks`.
+
+### To run tests:
