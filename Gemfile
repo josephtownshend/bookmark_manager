@@ -3,9 +3,9 @@ source "https://rubygems.org"
 require 'RSpec'
 require 'Capybara'
 require 'Sinatra'
-require 'Rubocop
+require 'Rubocop'
 
 gem 'rubocop', '~> 0.71.0', require: false
-'
+gem 'pg'
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }

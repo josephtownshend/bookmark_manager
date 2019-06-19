@@ -42,4 +42,11 @@ I would like to see a list of my bookmarks
 To view bookmarks, navigate to `localhost:3000/bookmarks`
 To view bookmarks, navigate to `localhost:3000/bookmarks`.
 
+### To set up test database
+```
+$> psql
+admin=# CREATE DATABASE "bookmark_manager_test";
+admin=# CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
+```
+
 ### To run tests:
